@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="slider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript" src="slider.js"></script>
+	<title></title>
+</head>
+<body>
+<div class="slider">
+	<ul>
+		<li><img src="http://images.freeimages.com/images/previews/fb7/sky-3-1395966.jpg"></li>
+		<li><img src="http://images.freeimages.com/images/previews/ce1/security-alarm-1312649.jpg"></li>
+		<li><img src="http://images.freeimages.com/images/previews/9f4/promenade-des-anglais-nice-fra-1560691.jpg"></li>
+		<li><img src="http://images.freeimages.com/images/previews/301/beach-cabana-1557390.jpg"></li>
+		<li><img src="http://images.freeimages.com/images/previews/4ca/beach-in-nice-france-1633211.jpg"></li>
+	</ul>	
+</div>
+<div class="slider">
+	<ul>
+		<li><img src="http://images.freeimages.com/images/previews/fb7/sky-3-1395966.jpg"></li>
+		<li><img src="http://images.freeimages.com/images/previews/ce1/security-alarm-1312649.jpg"></li>
+	</ul>	
+</div>
+
+</body>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".slider").practice({
+		prevText:"<",
+		nextText:">",
+		slide : "circular"     //circular or rectangular
+	});
+
+//	$(".slider2").practice({});
+	
+})
+</script>
+</html>

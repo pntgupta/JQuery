@@ -1,0 +1,77 @@
+html
+{
+	height: 100%;
+	background-color: #333333;
+}
+header.container, section.jumbotron
+{
+	font-family: 'Open Sans';
+	background-color: #333333;
+	color: white;
+	margin: 0px;
+	width: 100%;
+}
+header.container
+{
+	text-align: center;
+	background-color: black;
+}
+.jumbotron .row .outer
+{
+	width: 340px;
+	margin: auto; 
+}
+.jumbotron .row .outer .time
+{
+	width: auto;
+	display: inline-block;
+	padding: 0px 30px 0px 30px;
+}
+.jumbotron .row .outer .time p
+{
+	font-size: 12.8px;
+}
+.jumbotron .row .outer .time input
+{
+	background-color: #333333;
+	color: white;
+	border: none;
+	cursor: pointer;
+    font-size: 2em;
+    outline: none;
+}
+.jumbotron .row .outer .time span
+{
+	font-size: 2.5em;
+}
+.jumbotron .row .outer .timer
+{
+	position: relative;
+    top: 20px;
+	border: 2px solid #99CC00;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+}
+.jumbotron .row .outer .timer-inner
+{
+	position: absolute;
+	border : 4px solid #333333;
+	border-radius: 50%;
+	height: 292px;
+	width: 292px;
+	cursor: pointer;
+}
+.jumbotron .row .outer .timer .timer-inner p
+{	
+	font-size: 4em;
+	margin-top: 40px;
+	margin-bottom: 45px;
+}
+#timecount
+{
+	font-size: 4.5em;
+}

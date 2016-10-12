@@ -1,0 +1,35 @@
+	.p_slider
+	{
+		padding: 0px;
+		position:relative;
+		display: inline-block;
+	}
+	.p_slider ul
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	.p_slider li
+	{
+		display: none;
+	}
+	.p_slider li:first-child
+	{
+		display: block;
+	}
+	.p_slider li img
+	{
+		height: 200px;
+		width: 200px;
+	}
+	.p_slider .btnNext
+	{
+		float: right;
+		margin-right: 20px;
+	}
+	.p_slider .btnPrevious
+	{
+		float: left;
+		margin-left: 20px;
+	}
+

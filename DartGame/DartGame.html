@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="DartGame.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<title></title>
+</head>
+<body>
+	<div class="body">
+		<div class='outerDart'>
+			<img class="dart" src="images/Dartboard.png"/>
+			<img class="arrow arrowright" style="transform:rotate(0deg);" src="images/Arrow.png"/>
+			<img class="arrow arrowbottom" style="transform:rotate(90deg);" src="images/Arrow.png"/>
+			<img class="arrow arrowleft" style="transform:rotate(180deg);" src="images/Arrow.png"/>
+			<img class="arrow arrowtop" style="transform:rotate(270deg);" src="images/Arrow.png"/>
+		</div>
+		<input type="range" name="speed" data-show-value="true" data-highlight="true" id="speed" value="2" min="0" max="10">
+		<input type="button" name="stop" value="stop" class="stop_button"/>
+		<input type="button" name="pause/play" value="pause/play" class="pause_button"/>
+		<input type="button" name="start" value="start" class="start_button"/>
+		<div class="shoot_div">
+			<img class="arrow shoot_arrow" style="transform:rotate(90deg);" src="images/Arrow.png"/>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="DartGame.js"></script>
+</body>
+</html>

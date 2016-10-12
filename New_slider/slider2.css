@@ -1,0 +1,32 @@
+.n_slider
+{
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 230px;
+	overflow: hidden;
+}
+.n_slider ul
+{
+	position: relative;
+	display: inline-flex;
+	padding: 0px;
+	margin: 0px;
+}
+.n_slider ul li
+{
+	display: inline-block;
+}
+.n_slider ul li img
+{
+	height: 200px;
+	width: 200px;
+}
+.n_slider .btnPrevious
+{
+	float: left;
+}
+.n_slider .btnNext
+{
+	float: right;
+}

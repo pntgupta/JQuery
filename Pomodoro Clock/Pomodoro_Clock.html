@@ -1,0 +1,41 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="Pomodoro_Clock.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script type="text/javascript" src="Pomodoro_Clock.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<header class="container"><h1>Pomodoro Clock</h1></header>
+
+		<section class="jumbotron">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-xm-8 col-xs-offset-2">
+			<div class="outer">
+				<div class="time break">
+					<p>BREAK LENGTH</p>
+					<input type="button" class="_btnbreak" value="-"></input>
+					<span class="breakLength">1</span>
+					<input type="button" class="_btnbreak" value="+"></input>
+				</div>
+				<div class="time session">
+					<p>SESSION LENGTH</p>
+					<input type="button" class="_btnsession" value="-"></input>
+					<span class="sessionLength">1</span>
+					<input type="button" class="_btnsession" value="+"></input>
+				</div>
+
+				<div class="timer">
+				<div class="timer-inner">
+					<p id="sessionOrBreak">Session</p>
+					<p id="timecount">50 : 00</p>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		</section>
+	</body>
+	</html>

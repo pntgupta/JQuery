@@ -1,0 +1,100 @@
+.body
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.outerDart
+{
+	position: relative;
+	margin: auto;
+}
+img.dart
+{
+	position: absolute;
+	margin: auto;
+}
+.arrow
+{
+	position: absolute;
+	height: 8px;
+    width: 200px;
+    top: 200px;
+    left: 200px;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+}
+@keyframes animate
+{
+	from { transform: rotate(0deg); }
+	to {transform: rotate(360deg);}
+}
+@-webkit-keyframes animate
+{
+	from { transform: rotate(0deg); }
+	to {transform: rotate(360deg);}
+}
+.stop_button
+{
+	position: absolute;
+	top: 0px;
+}
+.pause_button
+{
+	position: absolute;
+	top: 40px;
+}
+.start_button
+{
+	position: absolute;
+	top: 20px;
+}
+.shoot_div
+{
+	position: relative;
+	height: 400px;
+	width: 400px;
+	margin: auto;
+}
+.shoot_arrow
+{
+	left: 100px;
+}
+.aminateit
+{
+	animation: animate1 0.2s 1 linear;
+	-webkit-animation: animate1 0.2s 1 linear;
+}
+.aminateit1
+{
+	animation: animate2 0.2s 1 linear;
+	-webkit-animation: animate2 0.2s 1 linear;
+}
+@keyframes animate1
+{
+	from { top: 200px; }
+	to {top: -200px;}
+}
+@-webkit-keyframes animate1
+{
+	from { top: 200px; }
+	to {top: -200px;}
+}
+@keyframes animate2
+{
+	from { top: 200px; }
+	to {top: 0px;}
+}
+@-webkit-keyframes animate2
+{
+	from { top: 200px; }
+	to {top: 0px;}
+}
+#speed
+{
+	position: absolute;
+}
+.hide
+{
+	display: none;
+}
